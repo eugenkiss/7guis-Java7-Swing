@@ -31,7 +31,7 @@ related bugs by accident.
 <sup>\*Interestingly, in the beginning it was tried to make Swing a multi-threaded
 toolkit without the need for an event dispatch thread. This attempt proved to be
 futile due to implementation complexities. For more information see
-[this article](https://weblogs.java.net/blog/kgh/archive/2004/10/multithreaded_t.html).</sup>
+[this article](https://community.oracle.com/people/kgh/blog/2004/10/19/multithreaded-toolkits-failed-dream).</sup>
 
 In order to separate domain-specific from GUI-specific concerns, Swing uses a
 practical variation of the MVC pattern by the name of [*separable model architecture*][mvc].
